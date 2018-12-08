@@ -1,0 +1,45 @@
+<!--pages/chooseConferenceRoom/chooseConferenceRoom.wxml-->
+
+<view class="container">
+
+
+  <view class='conferenceRoomInfo'>
+    <view class='conferenceRoomName'>斯坦福
+    </view>
+
+    <view class='conferenceRoomCapacity'>6人
+    </view>
+    
+    <view class='conferenceRoomLocation'>女卫生间旁
+    </view>
+  </view>
+
+
+    <!-- 选择会议室 -->
+    <view class="chooseConferenceRoom">
+      <navigator url="../submitBookingInfo/submitBookingInfo" open-type="navigate" class="chooseConferenceRoom-text">
+        <text>抢占</text>
+      </navigator>
+    </view>
+
+
+  <view class='conferenceRoomBookingListContainer'>
+    <view>今日预约
+    </view>
+
+    <view class='date'>{{time}}
+    </view>
+
+    <view class='conferenceRoomBookingList'>
+      <view class='conferenceRoomBookingListTime'>
+      </view>
+
+      <view class='conferenceRoomBookingListTheme'>
+      </view>
+
+      <view class='conferenceRoomBookingListHost'>
+      </view>
+
+    </view>
+  </view>
+</view>
